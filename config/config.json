@@ -17,7 +17,7 @@
     "username": "postgres",
     "password": "Production@123",
     "database": "image-processing",
-    "host": "127.0.0.1",
+    "host": "3.85.164.176",
     "dialect": "postgres"
   }
 }
