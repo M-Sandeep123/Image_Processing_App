@@ -23,12 +23,11 @@ Ensure you have the following installed:
 - Node.js (>=16.x)
 - PostgreSQL
 - Redis
-- Docker (optional, for containerized deployment)
 
 ### Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-repo/Image_Processing_App.git
+   git clone https://github.com/M-Sandeep123/Image_Processing_App
    cd Image_Processing_App
    ```
 2. Install dependencies:
@@ -63,7 +62,7 @@ Ensure you have the following installed:
 - **Description:** Accepts a CSV file, validates it, and returns a request ID.
 - **Request:**
   ```sh
-  curl -X POST -F "file=@sample.csv" http://localhost:3000/upload
+  curl -X POST -F "file=@sample.csv" http://localhost:3000/api/v1/upload
   ```
 - **Response:**
   ```json
