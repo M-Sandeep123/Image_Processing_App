@@ -28,7 +28,7 @@ Ensure you have the following installed:
 ### Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-repo/Image_Processing_App.git
+   git clone https://github.com/M-Sandeep123/Image_Processing_App
    cd Image_Processing_App
    ```
 2. Install dependencies:
